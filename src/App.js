@@ -3,7 +3,7 @@ import './App.css';
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 import Countries from './components/Countries';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from './components/Home';
 import SingleCountry from './components/SingleCountry';
 

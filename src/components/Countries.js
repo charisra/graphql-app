@@ -1,13 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CountriesFetch from './CountriesFetch';
 import Container from '@material-ui/core/Container';
 
-class Countries extends Component {
-    constructor(props){
-        super(props);
-    }
-
-    render() {
+function Countries() {
         return (
             <Container maxWidth="lg">
                 <div>
@@ -16,6 +11,5 @@ class Countries extends Component {
            </Container>
           );
         }
-    }
 
 export default Countries;
