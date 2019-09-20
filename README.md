@@ -1,4 +1,4 @@
-# Sample React App
+# Sample React & GraphQl (Apollo) App
 
 ## How to run:
 1) cd into the project
